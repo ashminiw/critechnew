@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { useAuth } from '../auth';
+import SignUpHeader from '../components/SignUpHeader';
+import Footer from '../components/Footer';
+// import Layout from '../components/Layout';
+import "tailwindcss/tailwind.css";
 
 export default () => {
   const { user } = useAuth();
 
   return (
-    <div style={{ padding: '40px' }}>
+
+    <div className="flex flex-col min-h-screen bg-green-500">
+    
+      <SignUpHeader/>
+      
+      <div className="flex flex-col items-center text-xl text-white">
+      
       <p>{`User ID: ${user ? user.uid : 'no user signed in'}`}</p>
 
       <p>
@@ -19,6 +29,8 @@ export default () => {
           <a>Login</a>
         </Link>
       </p>
+      </div>
+      <Footer/>
     </div>
   );
 };
