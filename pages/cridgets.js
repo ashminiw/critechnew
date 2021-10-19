@@ -20,7 +20,7 @@ function cridgets() {
 			{/* <text className="text-7xl text-green-800 p-4 mx-20">{`${user ? user.email : 'no user signed in'}'s Profile`}</text>
 			<text> About me </text> */}
 			<div className="flex flex-col justify-evenly space-y-6"> 
-			<div className="bg-purple-50 w-32 h-32 p-4 rounded-full flex items-center justify-center text-center" onClick={() => router.push('/fakenews')}> Fake News </div>
+			<div className="bg-purple-50 w-32 h-32 p-4 rounded-full flex items-center justify-center text-center" onClick={() => router.push('./modules/fakenews')}> Fake News </div>
 			<div className="bg-purple-50 w-32 h-32 p-4 rounded-full flex items-center justify-center text-center" onClick={() => router.push('/datapriv')}> Data Privacy </div>
 			<div className="bg-purple-50 w-32 h-32 p-4 rounded-full flex items-center justify-center text-center" onClick={() => router.push('/sma')} > Social Media Addiction </div>
 			<div className="bg-purple-50 w-32 h-32 p-4 rounded-full flex items-center justify-center text-center" onClick={() => router.push('/phishing')}> Phishing </div>
