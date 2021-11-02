@@ -6,7 +6,7 @@ function Footer() {
 	const router = useRouter()
 	return (
 		<div>
-			<div className='absolute inset-x-0 sticky-bottom-0 h-14 bg-green-200 flex items-center'>
+			<div className='absolute inset-x-0 bottom-0 h-14 bg-green-200 flex items-center'>
 				<div className="flex space-x-16" >
 				<FooterIcons onClick={() => router.push('/about')} foot={"About"} />
 				<FooterIcons foot={"Blog"}/>

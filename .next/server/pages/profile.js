@@ -219,6 +219,17 @@ module.exports = require("react-is");;
 "use strict";
 module.exports = require("react/jsx-dev-runtime");;
 
+/***/ }),
+
+/***/ "recoil":
+/*!*************************!*\
+  !*** external "recoil" ***!
+  \*************************/
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("recoil");;
+
 /***/ })
 
 };
@@ -228,7 +239,7 @@ module.exports = require("react/jsx-dev-runtime");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = __webpack_require__.X(0, ["vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_babel_runtime_helpers_inte-f89ba9","vendors-node_modules_heroicons_react_outline_esm_index_js-node_modules_heroicons_react_solid_-176a77","auth_tsx","components_Footer_js-components_Header_js-components_InputBox_js"], function() { return __webpack_exec__("./pages/profile.js"); });
+var __webpack_exports__ = __webpack_require__.X(0, ["vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_babel_runtime_helpers_inte-f89ba9","vendors-node_modules_heroicons_react_solid_esm_index_js-node_modules_tailwindcss_tailwind_css-46135b","vendors-node_modules_heroicons_react_outline_esm_index_js","auth_tsx","components_Header_js","components_Footer_js-components_InputBox_js"], function() { return __webpack_exec__("./pages/profile.js"); });
 module.exports = __webpack_exports__;
 
 })();

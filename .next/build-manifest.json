@@ -29,10 +29,30 @@
       "static/chunks/main.js",
       "static/chunks/pages/cridgets.js"
     ],
-    "/home": [
+    "/modules/quiz1/cyberbullying/content": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/home.js"
+      "static/chunks/pages/modules/quiz1/cyberbullying/content.js"
+    ],
+    "/modules/quiz1/cyberbullying/end": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/modules/quiz1/cyberbullying/end.js"
+    ],
+    "/modules/quiz1/cyberbullying/start": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/modules/quiz1/cyberbullying/start.js"
+    ],
+    "/modules/quiz1/postquiz/QuizMain": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/modules/quiz1/postquiz/QuizMain.js"
+    ],
+    "/modules/quiz1/quizcomp/QuizMain": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/modules/quiz1/quizcomp/QuizMain.js"
     ]
   },
   "ampFirstPages": []

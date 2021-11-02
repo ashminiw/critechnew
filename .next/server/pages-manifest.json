@@ -2,6 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/modules/quiz1/quizcomp/QuizMain": "pages/modules/quiz1/quizcomp/QuizMain.js",
+  "/modules/quiz1/cyberbullying/content": "pages/modules/quiz1/cyberbullying/content.js",
+  "/modules/quiz1/cyberbullying/start": "pages/modules/quiz1/cyberbullying/start.js",
+  "/modules/quiz1/postquiz/QuizMain": "pages/modules/quiz1/postquiz/QuizMain.js",
   "/cridgets": "pages/cridgets.js",
-  "/home": "pages/home.js"
+  "/modules/quiz1/cyberbullying/end": "pages/modules/quiz1/cyberbullying/end.js"
 }
